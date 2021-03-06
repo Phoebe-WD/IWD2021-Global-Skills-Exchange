@@ -121,3 +121,21 @@ body {
     border: 1px solid #FFFFFF;
     border-top: none;
 }
+
+/* Style for the register form */
+.required {
+    color: #FF0000;
+}
+
+.register {
+    display: flex;
+    flex-direction: column;
+}
+
+.forename, .surname, .password, .confirm-password {
+    width: 30%;
+}
+
+.email {
+    width: 50%;
+}

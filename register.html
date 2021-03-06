@@ -43,70 +43,47 @@
         </form>
       </div>
     </nav>
-    <div>
-      <div class="tab">
-        <button class="tablinks" onclick="openContent(event, 'What-we-do')">What we do</button>
-        <button class="tablinks" onclick="openContent(event, 'About-us')">About us</button>
-        <button class="tablinks" onclick="openContent(event, 'Mentors')">Mentors</button>
-      </div>
-      <div id="What-we-do" class="tabcontent">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ab laudantium explicabo impedit
-          perspiciatis commodi. Quod qui similique, unde voluptate ipsa omnis perspiciatis natus dolores harum,
-          exercitationem laudantium, vel fugit!</p>
-      </div>
-
-      <div id="About-us" class="tabcontent">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae esse excepturi fugiat, tempore eum ullam!
-          Veritatis fuga eum debitis quidem. Molestiae animi aliquid libero qui, doloremque officia mollitia.
-          Consectetur, officiis?</p>
-      </div>
-
-      <div id="Mentors" class="tabcontent">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eligendi placeat illo tempora dicta corporis
-          ab repellat aspernatur iure consectetur esse tenetur quaerat aliquid perspiciatis reprehenderit magnam nemo,
-          magni pariatur?</p>
-      </div>
-    </div>
-
-    <div class="card-collection">
-      <div class="card">
-        <div class="card-img-top">
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQFpYiGXjg218Q/profile-displayphoto-shrink_100_100/0/1594146652792?e=1619049600&v=beta&t=nkvq24cCzsqssWhAEV0KOe4FF3cXHS-NEtL6960mZUI" />
+    <h1>Register</h1>
+    <p>Are you new here? We would love for you to join our community!</p>
+    <form class="register">
+        <div>
+            <label for="forename">Forename:<span class="required">*</span></label>
+            <input 
+                name="forename"
+                type="text"
+                class="forename"
+                required></input>
+            <label for="surname">Surname:<span class="required">*</span></label>
+            <input 
+                name="surname"
+                type="text"
+                class="surname"
+                required></input>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Joe Bloggs</h5>
-          <p class="job-title">Senior Level Digital Marketer</p>
-          <p class="location">England, GMT</p>
-          <p class="availability available">Available</p>
+        <div>
+            <label for="email">Email:<span class="required">*</span></label>
+            <input 
+                name="email"
+                type="email"
+                class="email"
+                required></input>
         </div>
-      </div>
-      <div class="card">
-        <div class="card-img-top">
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQFpYiGXjg218Q/profile-displayphoto-shrink_100_100/0/1594146652792?e=1619049600&v=beta&t=nkvq24cCzsqssWhAEV0KOe4FF3cXHS-NEtL6960mZUI" />
+        <div>
+            <label for="password">Password:<span class="required">*</span></label>
+            <input 
+                name="password"
+                type="password"
+                class="password"
+                required></input>
+            <label for="confirm-password">Confirm Password:<span class="required">*</span></label>
+            <input 
+                name="confirm-password"
+                type="password"
+                class="confirm-password"
+                required></input>
         </div>
-        <div class="card-body">
-          <h5 class="card-title">Joe Bloggs</h5>
-          <p class="job-title">Senior Level Digital Marketer</p>
-          <p class="location">England, GMT</p>
-          <p class="availability available">Available</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-img-top">
-          <img
-            src="https://media-exp1.licdn.com/dms/image/C4E03AQFpYiGXjg218Q/profile-displayphoto-shrink_100_100/0/1594146652792?e=1619049600&v=beta&t=nkvq24cCzsqssWhAEV0KOe4FF3cXHS-NEtL6960mZUI" />
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Joe Bloggs</h5>
-          <p class="job-title">Senior Level Digital Marketer</p>
-          <p class="location">England, GMT</p>
-          <p class="availability unavailable">Next Available in April</p>
-        </div>
-      </div>
-    </div>
-  </div>
+        <button>Create Account</button>
+    </form>
   <footer class="bg-white">
     <div class="container py-5">
       <div class="row py-4">
@@ -167,6 +144,7 @@
         </p>
       </div>
     </div>
+    required
   </footer>
   <script src="app.js"></script>
 </body>
