@@ -19,13 +19,14 @@ input.search-form {
 .btn {
     height: 29px;
 }
-    body {
+
+body {
     display: flex;
     flex-direction: column;
 }
 
 .card {
-    width: 13%;
+    width: 30%;
     background-color: #4472C4;
     color: #FFFFFF;
 }
@@ -35,8 +36,7 @@ input.search-form {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    width: 95%;
-    
+    width: 100%;
 }
 
 .card-img-top {
