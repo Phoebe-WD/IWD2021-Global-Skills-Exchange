@@ -31,7 +31,15 @@ body {
     color: #FFFFFF;
 }
 
+.card:hover {
+    width: 31%;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    box-shadow: 5px 5px 20px #888888;
+}
+
 .card-collection {
+    margin-top: 15px;
     align-self: center;
     display: flex;
     justify-content: space-between;
@@ -124,4 +132,20 @@ body {
     padding: 6px 12px;
     border: 1px solid #FFFFFF;
     border-top: none;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    .card-collection {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 99%;
+    }
+
+    .card:hover {
+        width: 100%;
+    }
 }
