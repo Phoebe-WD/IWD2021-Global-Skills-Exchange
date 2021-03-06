@@ -18,8 +18,8 @@ input.search-form {
 
 .btn {
     height: 29px;
-=======
-body {
+}
+    body {
     display: flex;
     flex-direction: column;
 }
