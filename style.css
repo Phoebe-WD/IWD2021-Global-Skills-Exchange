@@ -1,3 +1,24 @@
+/* HTML Tags */
+
+input.search-form {
+    height: 29px;
+    width: 130px;
+}
+
+
+/* Custom Classes */
+
+.container {
+    padding: 3%;
+}
+
+.navbar {
+    margin-bottom: 3%;
+}
+
+.btn {
+    height: 29px;
+=======
 body {
     display: flex;
     flex-direction: column;
