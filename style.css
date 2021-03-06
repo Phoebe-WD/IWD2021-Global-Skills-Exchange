@@ -1,7 +1,21 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 .card {
     width: 13%;
     background-color: #4472C4;
     color: #FFFFFF;
+}
+
+.card-collection {
+    align-self: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 95%;
+    
 }
 
 .card-img-top {
@@ -38,4 +52,8 @@
 
 .available {
     background-color: #70AD47;
+}
+
+.unavailable {
+    background-color: #FC7738;
 }
