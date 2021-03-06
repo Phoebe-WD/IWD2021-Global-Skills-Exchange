@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,20 +8,22 @@
   <title>Global Skills Exchange</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
-    <script src="https://kit.fontawesome.com/4a7cd294ab.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/4a7cd294ab.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css" />
 </head>
-    <body>
-    <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="index.html"><img class="img-logo" src="img/logo.png" alt="img-home-pg"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarToggler">
-          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="index.html"><img class="img-logo" src="img/logo.png" alt="img-home-pg"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
           <li class="nav-item">
             <a class="nav-link" href="profile.html">Login/Signup</a>
           </li>
@@ -40,6 +43,31 @@
         </form>
       </div>
     </nav>
+    <div>
+      <div class="tab">
+        <button class="tablinks" onclick="openContent(event, 'What-we-do')">What we do</button>
+        <button class="tablinks" onclick="openContent(event, 'About-us')">About us</button>
+        <button class="tablinks" onclick="openContent(event, 'Mentors')">Mentors</button>
+      </div>
+      <div id="What-we-do" class="tabcontent">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ab laudantium explicabo impedit
+          perspiciatis commodi. Quod qui similique, unde voluptate ipsa omnis perspiciatis natus dolores harum,
+          exercitationem laudantium, vel fugit!</p>
+      </div>
+
+      <div id="About-us" class="tabcontent">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae esse excepturi fugiat, tempore eum ullam!
+          Veritatis fuga eum debitis quidem. Molestiae animi aliquid libero qui, doloremque officia mollitia.
+          Consectetur, officiis?</p>
+      </div>
+
+      <div id="Mentors" class="tabcontent">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eligendi placeat illo tempora dicta corporis
+          ab repellat aspernatur iure consectetur esse tenetur quaerat aliquid perspiciatis reprehenderit magnam nemo,
+          magni pariatur?</p>
+      </div>
+    </div>
+
     <div class="card-collection">
       <div class="card">
         <div class="card-img-top">
@@ -139,7 +167,7 @@
         </p>
       </div>
     </div>
-  </div>
+    </div>
   </footer>
   <script src="app.js"></script>
 </body>
