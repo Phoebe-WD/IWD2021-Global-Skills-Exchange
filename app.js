@@ -31,3 +31,35 @@ function myFunction() {
     }
   }
 }
+
+function login(event) {
+  event.preventDefault();
+  let accounts = [
+    {
+      "username": "user",
+      "password": "password"
+    },
+    {
+      "username": "Christa",
+      "password": "banana"
+    }
+  ]
+
+  let loggedIn = false;
+
+  for (let account of accounts) {
+    console.log(account)
+    if (document.getElementsByName("username")[0].value === account["username"] && document.getElementsByName("password")[0].value === account["password"]) {
+      window.open("profile.html", "_self");
+      loggedIn = true;
+      break;
+    }
+  }
+
+  if (loggedIn === false) {
+    document.getElementsByName("username")[0].value = "";
+    document.getElementsByName("password")[0].value = "";
+    document.querySelector(".incorrect-credentials").style.display = "block";
+  }
+  console.log(document.getElementsByName("username")[0].value);
+}

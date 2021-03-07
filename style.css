@@ -68,7 +68,7 @@ body {
 }
 
 .card {
-    height: 550px;
+    height: 650px;
     width: 30%;
     background-color: #FFFFFF;
     color: #FFFFFF;
@@ -147,7 +147,48 @@ body {
     width: 75px;
 }
 
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #FFFFFF;
+}
 
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #5b9ad596;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #5B9BD5;
+}
+
+/* Avatar image */
+img.avatar {
+    width: 10%;
+    border-radius: 30%;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #FFFFFF;
+    border-top: none;
+    text-align: center;
+}
 
 @media (max-width: 800px) {
     .card-collection {
