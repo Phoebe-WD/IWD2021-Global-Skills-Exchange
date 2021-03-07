@@ -1,6 +1,6 @@
 # Global Skills Exchange 👩‍💻
 
-It is a website where 6 people around the world work to do it to solve a problem. They where reunited thanks to the [International Women's Day HackHerThon](https://www.linkedin.com/events/hackherth0n-internationalwomenday/) organized by [TH.O](https://www.linkedin.com/company/thpoint0)
+It is a website where 6 people around the world worked to do it to solve a problem. They where reunited thanks to the [International Women's Day HackHerThon](https://www.linkedin.com/events/hackherth0n-internationalwomenday/) organized by [TH.O](https://www.linkedin.com/company/thpoint0)
 
 ![TH.0](https://i.imgur.com/ick4Z3D.png)
 
