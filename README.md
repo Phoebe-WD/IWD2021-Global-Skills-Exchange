@@ -1,6 +1,6 @@
 # Global Skills Exchange 👩‍💻
 
-It is a website where 6 people around the world worked to do it to solve a problem. They where reunited thanks to the [International Women's Day HackHerThon](https://www.linkedin.com/events/hackherth0n-internationalwomenday/) organized by [TH.O](https://www.linkedin.com/company/thpoint0)
+It is a website where 6 people around the world worked to do it to solve a problem. They where reunited thanks to the [International Women's Day HackHerThon](https://www.linkedin.com/events/hackherth0n-internationalwomenday/) organized by [TH.0](https://www.linkedin.com/company/thpoint0)
 
 ![TH.0](https://i.imgur.com/ick4Z3D.png)
 
@@ -51,7 +51,7 @@ In the age of digital revolutions, women must keepenhancing and updating their t
 
 ### Gratitude 👌
 
-We thanks to THpointO to the opportunity and every member of the group because they spent their time to created, learned and doing for 48 hours.
+We thanks to THpoint0 to the opportunity and every member of the group because they spent their time to created, learned and doing for 48 hours.
 
 - [Anugraha (Project Manager)](https://www.linkedin.com/in/anugraha-das-bb419716a/)
 - [Carmen (Marketing, Data, Business)](https://www.linkedin.com/in/carmen-munian-32b86157/)
