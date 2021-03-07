@@ -26,9 +26,11 @@ body {
 }
 
 .card {
+    height: 650px;
     width: 30%;
     background-color: #FFFFFF;
     color: #FFFFFF;
+    margin-bottom: 35px;
 }
 
 .card:hover {
@@ -53,7 +55,8 @@ body {
 }
 
 .card-img-top img {
-    width: 75%;
+    width: 180px;
+    height: 210px;
     border-radius: 50%;
     border: 2px solid #FFFFFF;
 }
@@ -89,8 +92,12 @@ body {
     background-color: #70AD47;
 }
 
-.unavailable {
+.unavailable-2months {
     background-color: #FC7738;
+}
+
+.unavailable-6months {
+    background-color: #FC3838;
 }
 
 .img-logo {
