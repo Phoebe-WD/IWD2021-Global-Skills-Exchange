@@ -81,7 +81,7 @@ body {
 }
 
 .job-title,
-.location {
+.location, .course-teaching {
     background-color: #5B9BD5;
 }
 
