@@ -25,10 +25,39 @@ body {
     flex-direction: column;
 }
 
+.introduction {
+    margin: 0 0 30px;   
+}
+
+.frst-para {
+    margin-right: 460px;
+}
+
+.frst-img {
+    width: 430px;
+    position: relative;
+    top: -370px;
+    left: 450px;
+}
+
+.sec-para {
+    margin-left: 430px;
+    position: relative;
+    bottom: 300px;
+}
+
+.sec-img {
+    width: 400px;
+    position: relative;
+    right: 440px;
+}
+
 .card {
+    height: 650px;
     width: 30%;
     background-color: #FFFFFF;
     color: #FFFFFF;
+    margin-bottom: 35px;
 }
 
 .card:hover {
@@ -53,7 +82,8 @@ body {
 }
 
 .card-img-top img {
-    width: 75%;
+    width: 180px;
+    height: 210px;
     border-radius: 50%;
     border: 2px solid #FFFFFF;
 }
@@ -89,8 +119,12 @@ body {
     background-color: #70AD47;
 }
 
-.unavailable {
+.unavailable-2months {
     background-color: #FC7738;
+}
+
+.unavailable-6months {
+    background-color: #FC3838;
 }
 
 .img-logo {
