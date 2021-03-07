@@ -14,7 +14,7 @@
 </head>
 
 <body>
- <header>
+  <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <a class="navbar-brand" href="index.html"><img class="img-logo" src="img/logo.png" alt="img-home-pg"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
@@ -38,81 +38,65 @@
         <form class="form-inline my-2 my-lg-0">
           <!-- <input class="form-control ml-sm-2 mr-sm-2 search-form" type="search" placeholder="Search"
             aria-label="Search" /> -->
-          <input class="form-control ml-sm-2 mr-sm-2 search-form" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Courses..">
+          <input class="form-control ml-sm-2 mr-sm-2 search-form" type="text" id="myInput" onkeyup="myFunction()"
+            placeholder="Search Courses..">
           <button class="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit">
             Search
           </button>
         </form>
       </div>
     </nav>
-    </header>
+  </header>
   <div class="container">
-
     <div class="introduction">
-      <div class="frst-para">
-      <h1>Welcome to Global Skills Exchange!</h1><br>
-      <p>Here you have free acess t 100's of exeperts that are ready to teach you the skills you need
-         to become an Entrepreneur, develop a product or service and setup your own business.
-      </p>
-      <p>         
-         Our experts can help you learn the skills you need to get started and overcome the
-         chanllenges duting the early stages of developing your product and setting up your business.
-      </p>
-      <br><br>
+      <div class="first-content">
+        <div class="frst-para">
+          <h1>Welcome to Global Skills Exchange!</h1><br>
+          <p>Here you have free acess t 100's of exeperts that are ready to teach you the skills you need
+            to become an Entrepreneur, develop a product or service and setup your own business.
+            <br><br>
+            Our experts can help you learn the skills you need to get started and overcome the
+            chanllenges duting the early stages of developing your product and setting up your business.
+          </p>
+        </div>
+        <div class="img-cont1">
+          <img class="frst-img" src="img/frst-para.jpg" alt="img">
+        </div>
       </div>
-      <img class="frst-img" src="img/frst-para.jpg" alt="img">
-      <img class="sec-img" src="img/sec-para.webp" alt="img">
+      <div class="img-cont2">
+        <img class="sec-img" src="img/sec-para.webp" alt="img">
+      </div>
       <div class="sec-para">
-      <h3><emp>How does it work?</emp></h3>
-      <p>Our expers are trained in different areas of business and product development in different
-        sectors of agriculture, manufacturing, software engineering, biotechnology and more.
-      </p>
-      <p>
-        <strong>You can start learning in 3 easy steps:</strong><br>
-        <ul>
-          <li>Find an expert,</li>
-          <li>Send them a message, and</li>
-          <li>Arrange a meeting to start your learnig.</li>
-        </ul>
-      </p>
-      <p>
-        All expert profiles have a color indicator to show if they are available now (<i style="color:green">Green</i>),
-        available in 2 months (<i style="color:yellow">yellow</i>) available for in 6 months (<i style="color:red">red</i>).
-      </p>
-      <p>Our experts are volunteers, so please be patient if theyare unable to meet with you immediately.</p>
+        <h3>
+          <emp>How does it work?</emp>
+        </h3>
+        <p>Our expers are trained in different areas of business and product development in different
+          sectors of agriculture, manufacturing, software engineering, biotechnology and more.
+        </p>
+        <p>
+          <strong>You can start learning in 3 easy steps:</strong><br>
+          <ul>
+            <li>Find an expert,</li>
+            <li>Send them a message, and</li>
+            <li>Arrange a meeting to start your learnig.</li>
+          </ul>
+        </p>
+        <p>
+          All expert profiles have a color indicator to show if they are available now (<span
+            style="color:green">Green</span>),
+          available in 2 months (<span style="color:yellow">yellow</span>) available for in 6 months (<span
+            style="color:red">red</span>).
+        </p>
+        <p>Our experts are volunteers, so please be patient if theyare unable to meet with you immediately.</p>
       </div>
     </div>
-
-    <div>
-      <div class="tab">
-        <button class="tablinks" onclick="openContent(event, 'What-we-do')">What we do</button>
-        <button class="tablinks" onclick="openContent(event, 'About-us')">About us</button>
-        <button class="tablinks" onclick="openContent(event, 'Mentors')">Mentors</button>
-      </div>
-      <div id="What-we-do" class="tabcontent">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ab laudantium explicabo impedit
-          perspiciatis commodi. Quod qui similique, unde voluptate ipsa omnis perspiciatis natus dolores harum,
-          exercitationem laudantium, vel fugit!</p>
-      </div>
-
-      <div id="About-us" class="tabcontent">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae esse excepturi fugiat, tempore eum ullam!
-          Veritatis fuga eum debitis quidem. Molestiae animi aliquid libero qui, doloremque officia mollitia.
-          Consectetur, officiis?</p>
-      </div>
-
-      <div id="Mentors" class="tabcontent">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, eligendi placeat illo tempora dicta corporis
-          ab repellat aspernatur iure consectetur esse tenetur quaerat aliquid perspiciatis reprehenderit magnam nemo,
-          magni pariatur?</p>
-      </div>
+    <div class="title-cards">
+      <h3>Our Top Mentors</h3>
     </div>
-    
     <div class="card-collection" id="myTeachers">
       <div class="card">
         <div class="card-img-top">
-          <img
-            src="img/mentor1.jpg" />
+          <img src="img/mentor1.jpg" />
         </div>
         <div class="card-body">
           <h5 class="card-title">Joe Bloggs</h5>
@@ -124,8 +108,7 @@
       </div>
       <div class="card">
         <div class="card-img-top">
-          <img
-            src="img/mentor2.jpg" />
+          <img src="img/mentor2.jpg" />
         </div>
         <div class="card-body">
           <h5 class="card-title">Joe Bloggs</h5>
@@ -137,8 +120,7 @@
       </div>
       <div class="card">
         <div class="card-img-top">
-          <img
-            src="img/mentor1.jpg" />
+          <img src="img/mentor1.jpg" />
         </div>
         <div class="card-body">
           <h5 class="card-title">Joe Bloggs</h5>
@@ -213,7 +195,12 @@
     </div>
   </footer>
   <script src="app.js"></script>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
+  </script>
 </body>
+
 </html>

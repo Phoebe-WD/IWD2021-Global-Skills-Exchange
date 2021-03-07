@@ -5,7 +5,6 @@ input.search-form {
     width: 130px;
 }
 
-
 /* Custom Classes */
 
 .container {
@@ -26,30 +25,46 @@ body {
 }
 
 .introduction {
-    margin: 0 0 30px;   
+    height: auto;
 }
 
 .frst-para {
-    margin-right: 460px;
+    width: 50%;
+    float: left;
+    margin-bottom: 20px;
+}
+.img-cont1{
+    margin-top: -44px;
+    width: 40%;
+    float: right;
+    margin-bottom: 20px;
 }
 
 .frst-img {
-    width: 430px;
-    position: relative;
-    top: -370px;
-    left: 450px;
+    width: 400px;
+}
+.img-cont2{
+    width: 40%;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .sec-para {
-    margin-left: 430px;
-    position: relative;
-    bottom: 300px;
+    width: 50%;
+    float: right;
+    margin-bottom: 20px;
 }
 
 .sec-img {
     width: 400px;
-    position: relative;
-    right: 440px;
+
+}
+.title-cards{
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
 }
 
 .card {
@@ -139,46 +154,6 @@ body {
     background-color: #FFFFFF;
 }
 
-/* Bordered form */
-form {
-    border: 3px solid #f1f1f1;
-}
-
-/* Full-width inputs */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-}
-
-/* Set a style for all buttons */
-button {
-background-color: dodgerblue;
-color: white;
-padding: 14px 20px;
-margin: 8px 0;
-border: none;
-cursor: pointer;
-width: 100%;
-}
-
-.imgcontainer {
-    text-align: center;
-    margin: 24px 0 12px 0;
-}
-
-.form-inline button{
-    width: 21%;
-}
-
-/* Add a hover effect for buttons */
-button:hover {
-opacity: 0.8;
-}
-
 /* Style the buttons that are used to open the tab content */
 .tab button {
     background-color: inherit;
@@ -213,12 +188,6 @@ img.avatar {
     border: 1px solid #FFFFFF;
     border-top: none;
     text-align: center;
-}
-
-.incorrect-credentials {
-    color: #FF0000;
-    text-align: center;
-    display: none;
 }
 
 @media (max-width: 800px) {
