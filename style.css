@@ -25,6 +25,33 @@ body {
     flex-direction: column;
 }
 
+.introduction {
+    margin: 0 0 30px;   
+}
+
+.frst-para {
+    margin-right: 460px;
+}
+
+.frst-img {
+    width: 430px;
+    position: relative;
+    top: -370px;
+    left: 450px;
+}
+
+.sec-para {
+    margin-left: 430px;
+    position: relative;
+    bottom: 300px;
+}
+
+.sec-img {
+    width: 400px;
+    position: relative;
+    right: 440px;
+}
+
 .card {
     width: 30%;
     background-color: #FFFFFF;
