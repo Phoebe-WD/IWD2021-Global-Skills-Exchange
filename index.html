@@ -35,8 +35,9 @@
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control ml-sm-2 mr-sm-2 search-form" type="search" placeholder="Search"
-            aria-label="Search" />
+          <!-- <input class="form-control ml-sm-2 mr-sm-2 search-form" type="search" placeholder="Search"
+            aria-label="Search" /> -->
+          <input class="form-control ml-sm-2 mr-sm-2 search-form" type="text" id="myInput" onkeyup="myFunction()" placeholder="Search Courses..">
           <button class="btn btn-outline-success btn-sm my-2 my-sm-0" type="submit">
             Search
           </button>
@@ -69,8 +70,8 @@
           magni pariatur?</p>
       </div>
     </div>
-
-    <div class="card-collection">
+    
+    <div class="card-collection" id="myTeachers">
       <div class="card">
         <div class="card-img-top">
           <img
@@ -79,6 +80,7 @@
         <div class="card-body">
           <h5 class="card-title">Joe Bloggs</h5>
           <p class="job-title">Senior Level Digital Marketer</p>
+          <p class="course-teaching">Digital Marketing</p>
           <p class="location">England, GMT</p>
           <p class="availability available">Available</p>
         </div>
@@ -91,6 +93,7 @@
         <div class="card-body">
           <h5 class="card-title">Joe Bloggs</h5>
           <p class="job-title">Senior Level Digital Marketer</p>
+          <p class="course-teaching">Startup Business</p>
           <p class="location">England, GMT</p>
           <p class="availability available">Available</p>
         </div>
@@ -103,6 +106,7 @@
         <div class="card-body">
           <h5 class="card-title">Joe Bloggs</h5>
           <p class="job-title">Senior Level Digital Marketer</p>
+          <p class="course-teaching">Crowd Funding</p>
           <p class="location">England, GMT</p>
           <p class="availability unavailable">Next Available in April</p>
         </div>
