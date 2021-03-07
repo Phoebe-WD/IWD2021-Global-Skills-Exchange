@@ -14,7 +14,7 @@ window.onclick = function(event) {
 
 function myFunction() {
   // Declare variables
-  let input, filter, ul, li, a, i, txtValue;
+  let input, filter, cards, card, course, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
   cards = document.getElementById("myTeachers");
